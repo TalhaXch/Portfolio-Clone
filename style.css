@@ -72,3 +72,150 @@ header {
   width: 171px;
   margin-left: 23px;
 }
+
+.worksection {
+  display: flex;
+  flex-direction: column;
+  padding: 114px 24px 114px 24px;
+  gap: 88px;
+  align-items: center;
+}
+
+.highlight {
+  list-style: none;
+  color: #344563;
+  font-weight: 600;
+}
+
+.cap {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -20px;
+  padding-right: 40px;
+  color: #7a869a;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.skill {
+  display: flex;
+  list-style: none;
+}
+
+.s1 {
+  border: solid 1px;
+  padding: 4px 12px 4px 12px;
+  border-radius: 8px;
+  margin: 10px;
+  background-color: #ebebff;
+  border-color: #ebebff;
+  color: #6070ff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.36px;
+  margin-left: 4px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-start;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  gap: 12px;
+}
+
+.poster {
+  align-self: center;
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+}
+
+.btn2 {
+  font-size: 17px;
+  font-weight: 500;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  gap: 12px;
+  margin-top: 10px;
+  color: #6070ff;
+  background-color: white;
+  margin-right: 150px;
+  margin-bottom: 16px;
+}
+
+.longheading {
+  margin-right: 30px;
+}
+
+.about-me-section {
+  display: inline-flex;
+  padding: 114px 24px;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.connect-button1 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: #7f8cff;
+  align-self: flex-start;
+}
+
+.lang-head {
+  display: flex;
+  padding: 16px 26px 16px 12px;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-between;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.languages {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.lang {
+  display: flex;
+  list-style: none;
+  padding: 9px 12px 9.716px 12px;
+  gap: 18px;
+  border-radius: 8px;
+  background: var(--neutrals-n-10, #f7f7f9);
+}
+
+.lang-name {
+  padding-left: 10px;
+  margin-top: 15px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.lang-foot {
+  display: flex;
+  padding: 16px 26px 16px 12px;
+  gap: 12px;
+  justify-content: space-between;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  border-bottom: solid 1px #dfe1e6;
+}
