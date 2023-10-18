@@ -4,10 +4,13 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.deskmenu {
+  display: none;
+}
+
 body {
   width: 375px;
   position: absolute;
-  left: 38%;
 }
 
 header {
@@ -302,4 +305,160 @@ header {
   letter-spacing: 0.51px;
   border: none;
   margin-top: 4.1 px;
+}
+
+@media screen and (min-width: 476px) {
+  p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #344563;
+  }
+
+  body {
+    width: 1440px;
+    height: 1080px;
+    position: absolute;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .deskmenu {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+  }
+
+  header {
+    margin: 0 143px 0 143px;
+  }
+
+  .deskmenu li {
+    margin: 12px;
+    color: #344563;
+  }
+
+  .head {
+    background-image: url(./source/Header\ bg.svg);
+    align-items: normal;
+  }
+
+  .heading {
+    margin: 289px 260px 0 260px;
+    width: 400px;
+  }
+
+  .paragraph {
+    margin: 0 260px 0 260px;
+    width: 920px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .connect-button {
+    margin: 0 260px;
+  }
+
+  .social-icons {
+    margin: 0 260px 265px;
+  }
+
+  .card {
+    width: 1156px;
+    flex-shrink: 0;
+    flex-direction: row;
+  }
+
+  .cardimg {
+    width: 544px;
+    height: 448px;
+    flex-shrink: 0;
+    flex-direction: row;
+  }
+
+  .cardtext {
+    display: inline-flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .worksection {
+    display: inline-flex;
+    padding: 142px;
+    flex-direction: column;
+    align-items: center;
+    gap: 142px;
+  }
+
+  .cap {
+    gap: 30px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .aboutmeicons {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 171px;
+    margin-left: 0;
+  }
+
+  .aboutmetext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 455px;
+  }
+
+  .btn21 {
+    margin-top: -238px;
+  }
+
+  .about-me-section {
+    flex-direction: row;
+    margin: 166px 0 166px 143px;
+  }
+
+  .lang {
+    flex-direction: column;
+    width: 75px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .lang-head {
+    width: 582px;
+  }
+
+  .languages {
+    flex-direction: row;
+  }
+
+  .card2 {
+    flex-direction: row-reverse;
+  }
+
+  .contact-me {
+    background-image: url(./source/contact\ form\ background\ shapes.svg);
+    width: 1440px;
+    height: 846px;
+    background-color: #6070ff;
+    gap: 12px;
+  }
+
+  .contact-me p {
+    width: 569px;
+    height: 102px;
+  }
 }
